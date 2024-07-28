@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: error-func
+# key: \error-func
+# --
+
+err() {
+  # handle errors (send to standard error)
+  echo "$*" >&2
+}
+
+$0

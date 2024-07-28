@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: sigint-trap
+# key: \sigint-trap
+# --
+
+trap 'echo -e "\nSIGINT Received... exiting"; exit 130' SIGINT
+
+$0
