@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: help-func
-# key: \help-func
+# key: -help-func
 # --
 
 show_help() {

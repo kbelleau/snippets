@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: todo
-# key: \todo
+# key: -todo
 # --
 
 * TODO `(format-time-string "%B %d %Y")`

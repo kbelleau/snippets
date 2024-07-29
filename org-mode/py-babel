@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: py-block
-# key: \py-block
+# name: py-babel
+# key: -py-babel
 # --
 
 #+begin_src python :results output

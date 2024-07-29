@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: error-func
-# key: \error-func
+# key: -error-func
 # --
 
 err() {
