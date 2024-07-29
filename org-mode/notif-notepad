@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: notif-notepad 
+# key: -notif-notepad
+# --
+
+# -*- mode: org -*-
+#+title:        Notepad
+#+notif-id:     N-notepad
+#+startup:      overview
+
+$0
