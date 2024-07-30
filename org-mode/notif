@@ -4,7 +4,7 @@
 # --
 
 # -*- mode: org -*-
-#+title:        ${1:`(upcase (replace-regexp-in-string "[-_]" " " (buffer-name)))`}
+#+title:        ${1:title}
 #+tags:         `(file-name-nondirectory (directory-file-name (file-name-directory buffer-file-name)))` ${2:}
 #+date:         `(format-time-string "%B %d %Y T%H:%M")`
 #+notif-id:     `(concat "N-" (secure-hash 'sha1 (buffer-name)))`
