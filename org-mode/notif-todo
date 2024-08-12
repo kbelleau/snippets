@@ -5,7 +5,8 @@
 
 # -*- mode: org -*-
 #+title:        TODO
-#+notif-id:     N-todo
+#+notif-id:     todo
 #+startup:      showall
+#+archive:      .Archive/%s_done::
 
 $0

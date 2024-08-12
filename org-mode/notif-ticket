@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: notif-ticket
+# key: -notif-ticket
+# --
+
+# -*- mode: org -*-
+#+title:        `(buffer-name)`
+#+tags:         `(file-name-nondirectory (directory-file-name (file-name-directory buffer-file-name)))` ${1:}
+#+date:         `(format-time-string "%B %d %Y T%H:%M")`
+#+notif-id:     `(concat "T-" (secure-hash 'sha1 (buffer-name)))`
+#+startup:      showall
+
+* Description
+$0
+* Affected Servers / Services
+* Troubleshooting
+* Resolution
+* Related Tickets
