@@ -5,7 +5,7 @@
 
 show_help() {
   # help text
-  echo "Usage: ${0##*/} [OPTIONAL] [REQUIRED] ..."
+  echo "Usage: $\{0##*/} [OPTIONAL] [REQUIRED] ..."
   echo "Options:"
   echo "  -h, --help    Show this help menu"
   echo "$0"
