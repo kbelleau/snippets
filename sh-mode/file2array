@@ -7,8 +7,10 @@ file2array() {
   # convert each line in a file to an array element
   # skip lines that start with # or [, skip blank lines
   # trim leading and trailing whitespace
-  # ARGS: $1 = array_name, $2 = filename
+  # ARGS: $1 array_name
+  # ARGS: $2 filename
   # RET: array
+
   readarray -t "$1" < \
             <(sed -E '/^[#\[]|^$/d; s/^[[:space:]]+|[[:space:]]+$//g' "$2")
 }
