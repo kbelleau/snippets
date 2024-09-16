@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: hostfile2array
+# key: -hostfile2array
+# --
+
+hostfile2array() {
+  # convert each line in a file to an array element
+  # skip lines that start with # or [, skip blank lines
+  # trim leading and trailing whitespace
+  # : array name for $\1 must be declared before function is called
+  #
+  # ARG \$1: output array name
+  # ARG \$2: filename
+  # RET: array named in $\1
+
+  readarray -t "\$1" < \
+            <(sed -E '/^[#\[]|^$/d; s/^[[:space:]]+|[[:space:]]+$//g' "\$2")
+}
+
+$0

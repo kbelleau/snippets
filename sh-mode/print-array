@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: print-array
+# key: -print-array
+# --
+
+print_array() {
+  # iterate through an array and print each element on a newline
+  #
+  # ARG \$1: array
+
+  local e
+  for e in "$@"; do
+    echo "$e"
+  done
+}
+
+$0
