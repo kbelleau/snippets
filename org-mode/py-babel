@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: py-babel
-# key: -py-babel
-# --
-
-#+begin_src python :results output
-$0
-#+end_src
